@@ -3,9 +3,13 @@ import NavBar from "../NavBar";
 import "./style.css";
 
 function Header(){
+    const headerStyle = {
+        border: "1px solid black",
+        position: "relative"
+    }
     return (
-        <header>
-            <h1> My Portfolio </h1>
+        <header style={headerStyle}>
+            <h1> Adam Gonzalez </h1>
             <NavBar />
         </header>
     )

@@ -1,7 +1,11 @@
 header {
     width: 100%;
     background-color: maroon;
-    height: 50px;
+    height: auto;
     display: flex;
     justify-content: space-between;
+}
+
+h1 {
+    margin-left: 10px;
 }
